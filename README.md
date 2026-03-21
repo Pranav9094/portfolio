@@ -12,9 +12,6 @@ Welcome to my personal portfolio repository! I'm a Data Analyst and AI Developer
 - Responsive UI with smooth scroll animations using `GSAP`
 - Fully showcased projects including my **Syllabus → Success Engine**
 
-## 🌐 Live Preview
-*(Add your live hosting link here once you deploy it!)*
-
 ## 💻 Running Locally
 To run this project on your local machine:
 1. Clone this repository: `git clone https://github.com/Pranav9094/portfolio.git`
