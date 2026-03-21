@@ -1,16 +1,23 @@
-# My Portfolio Wesbite - Overview 🚀
+# Pranav Chaudhari - Personal Portfolio 🚀
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+Welcome to my personal portfolio repository! I'm a Data Analyst and AI Developer passionate about Artificial Intelligence, Machine Learning, and Big Data Analytics. 
 
-## Instructions 🛠️
+## 🛠️ Tech Stack
+- **Languages:** Python, SQL, JavaScript/TypeScript
+- **Frontend:** React.js, HTML/CSS, Three.js (3D Graphics)
+- **Data & AI:** Pandas, Power BI, TensorFlow, Gemini AI
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+## ✨ Features
+- Modern, animated 3D interactive character using `react-three-fiber`
+- Responsive UI with smooth scroll animations using `GSAP`
+- Fully showcased projects including my **Syllabus → Success Engine**
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
+## 🌐 Live Preview
+*(Add your live hosting link here once you deploy it!)*
 
-![Portfolio-Preview](public/images/preview.png)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+## 💻 Running Locally
+To run this project on your local machine:
+1. Clone this repository: `git clone https://github.com/Pranav9094/portfolio.git`
+2. Install dependencies: `npm install`
+3. Start the dev server: `npm run dev`
+4. Open `http://localhost:5173/` in your browser.
