@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
-import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
+import { ScrollSmoother } from "gsap/ScrollSmoother";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
@@ -20,7 +20,7 @@ const Navbar = () => {
       ignoreMobileResize: true,
     });
 
-    smoother.scrollTop(0);
+    smoother.scrollTo(0);
     smoother.paused(true);
 
     let links = document.querySelectorAll(".header ul a");
@@ -36,7 +36,7 @@ const Navbar = () => {
       });
     });
     window.addEventListener("resize", () => {
-      ScrollSmoother.refresh(true);
+      ScrollTrigger.refresh(true);
     });
   }, []);
   return (
